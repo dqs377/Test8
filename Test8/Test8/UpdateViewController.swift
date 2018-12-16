@@ -10,6 +10,7 @@ import UIKit
 
 class UpdateViewController: UIViewController {
 
+   
     var tea:Teacher?
     var stu:Student?
     var stus:[Student]?
@@ -17,7 +18,7 @@ class UpdateViewController: UIViewController {
     let textField:UITextField = UITextField.init();
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.white;
+        self.view.backgroundColor = UIColor.red;
         
         textField.frame = CGRect.init(x: 100, y: 100, width: 100, height: 30);
         textField.borderStyle = .roundedRect;
